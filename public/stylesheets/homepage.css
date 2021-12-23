@@ -1,0 +1,78 @@
+.homepageMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#name {
+    text-align: center;
+    font-size: 5.5em;
+    color: white;
+    font-weight: lighter;
+    text-shadow: 0px 0px 25px white;
+    margin-top: 150px;
+}
+
+.intro {
+    color: white;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 30px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#hello {
+    font-weight: 500;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.portfoliobutton {
+    color: white;
+    text-decoration: none;
+    padding: 25px 0px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 20%;
+    background: rgba(3, 4, 94, 0.5);
+    border-radius: 0.4em;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 150px;
+}
+
+.portfoliobutton:hover {
+    background: rgba(0, 150, 199, 0.5);
+    box-shadow: 0 0.5em 0.8em 0.05em rgba(255, 255, 255, 0.3); /*rgba(3, 4, 94, 0.5); */
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5em;
+        margin-top: 75px;
+    }
+    .intro {
+        max-width: 85%;
+    }
+
+    .portfoliobutton {
+        width: 60%;
+        margin-top: 50px;
+        font-size: 1.2em
+    }
+
+    ul {
+        padding: 0px;
+    }
+
+    .intro {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+}

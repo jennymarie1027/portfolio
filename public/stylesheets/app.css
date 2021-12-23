@@ -1,3 +1,13 @@
 .marginTop {
     margin-top: 8em;
 }
+
+body {
+    margin: 0px;
+    font-weight: 100;
+    font-family: 'Encode Sans SC', sans-serif;
+    background-image: linear-gradient(rgb(3, 4, 94), rgb(0, 129, 172));
+    min-height: 87vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

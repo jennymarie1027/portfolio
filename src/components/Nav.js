@@ -4,7 +4,7 @@ import Logo from '../imgs/jm_logo.jpg'
 
 const Nav = () => {
     return (
-        <header className='navbar navbar-expand-sm  bg-light fixed-top'>
+        <header className='navbar navbar-expand-sm navbar-light fixed-top'>
             <Link to='/' className='navbar-brand mb-0 h1'>
                 <img id='logo' src={Logo} alt='JM LOGO' />
             </Link>
@@ -18,7 +18,7 @@ const Nav = () => {
                 aria-label='toggle navigation'>
                 <span className='navbar-toggler-icon'></span>
             </button>
-            <div className='navbar-collapse navbar-right' id='navbarNav'>
+            <div className=' navbar-collapse' id='navbarNav'>
                 <Link to='/' className='nav-link'>Home</Link>
                 <Link to='/About' className='nav-link' >About</Link>
                 <Link to='/Projects' className='nav-link'>Projects</Link>
