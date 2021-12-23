@@ -39,14 +39,14 @@
     background: rgba(3, 4, 94, 0.5);
     border-radius: 0.4em;
     font-size: 1.4em;
-    font-weight: 400;
+    font-weight: 200;
     text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
     margin-bottom: 150px;
 }
 
 .portfoliobutton:hover {
     background: rgba(0, 150, 199, 0.5);
+    color: white;
     box-shadow: 0 0.5em 0.8em 0.05em rgba(255, 255, 255, 0.3); /*rgba(3, 4, 94, 0.5); */
     transform: translateY(-0.25em);
     cursor: pointer;
