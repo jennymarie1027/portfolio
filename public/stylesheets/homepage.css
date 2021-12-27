@@ -37,6 +37,7 @@
     text-align: center;
     width: 20%;
     background: rgba(3, 4, 94, 0.5);
+    border: 1px solid white;
     border-radius: 0.4em;
     font-size: 1.4em;
     font-weight: 200;
