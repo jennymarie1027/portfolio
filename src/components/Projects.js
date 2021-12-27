@@ -2,7 +2,6 @@ import React from 'react'
 import faceDetect from '../imgs/facedetect.png'
 import milk from '../imgs/milk.png'
 import dad from '../imgs/dadjoke.png'
-import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return (
