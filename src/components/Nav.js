@@ -4,7 +4,7 @@ import Logo from '../imgs/jm_logo.jpg'
 
 const Nav = () => {
     return (
-        <header className='navbar navbar-expand-sm navbar-light fixed-top'>
+        <header className='navbar fixed-top navbar-expand-sm navbar-light'>
             <Link to='/' className='navbar-brand mb-0 h1'>
                 <img id='logo' src={Logo} alt='JM LOGO' />
             </Link>
