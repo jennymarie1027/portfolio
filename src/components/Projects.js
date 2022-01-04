@@ -1,8 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import faceDetect from '../imgs/facedetect.png'
-import milk from '../imgs/milk.png'
-import dad from '../imgs/dadjoke.png'
 
 const Projects = () => {
     return (
