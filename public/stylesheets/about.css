@@ -1,9 +1,8 @@
 .aboutMeContainer{
     color: white;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    margin-left: 3em;
+    max-width: 90vw;
 }
 
 .aboutMeDetails {
@@ -12,14 +11,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 50%;
-    margin-right: 20px;
+    min-width: 50%;
+    margin-left: 8em;
 }
 
 #about {
     display: inline-block;
     font-size: 2em;
     letter-spacing: 0.2em;
+}
+
+.aboutMeHeadshot {
+    margin-left:2em;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#headshot {
+    max-height: 20em;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -32,8 +44,15 @@
 
     .aboutMeContainer {
         font-size: 1em;
+        margin-left: 1em;
     } 
     #about {
         font-size: 1.3em;
+    }
+    .aboutMeDetails {
+        margin-left: 0em;
+    }
+    #headshot {
+        text-align: center;
     }
 }
