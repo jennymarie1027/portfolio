@@ -7,11 +7,11 @@ const About = () => {
         <main className='marginTop grandpa'>
             <div className='aboutMeContainer'>
                 <div class="aboutMeDetails">
-                    <h2 id="about">I'm a curiosity-driven Front-End Developer.</h2>
-                    <p>I'm passionate about bringing both the technical and visual aspects of digital products to life.  User experience, beautiful pixels and writing clean accessible, human code matters to me.  I sweat the details.  And as a follower of John Maeda's Laws Of Simplicity, I agree that less is more</p>
+                    <h2 id="about">I'm a curiosity-driven Front-End Developer</h2>
+                    <p>that is passionate about bringing both the technical and visual aspects of digital products to life.  User experience, beautiful pixels and writing clean accessible, human code matters to me.  I sweat the details.  And as a follower of John Maeda's Laws Of Simplicity, I agree that less is more</p>
                     <p>I have a BA in International Affairs & Spanish Literature from the University of Colorado and a Certificate of Web Development from Colorado State University.</p>
-                    <p>I am happiest when I'm creating, learning, exploring, and thinking about how to make things better.  In my free time, I enjoy yoga, hiking, and riding bikes with friends. I'm a big fan of coffee, cooking delicious, healthy food, and I love to travel whenever I can.  Currently solving deceptively simple problems at AlgoExpert.com.  I am available for work, feel free to reach out.</p>
-                    <Link to='/contact'>Get In Touch!</Link>
+                    <p>I am happiest when I'm creating, learning, exploring, and thinking about how to make things better.  In my free time, I enjoy yoga, hiking, and riding bikes with friends. I'm a big fan of coffee, cooking delicious, healthy food, and I love to travel whenever I can.  I am available for work, feel free to reach out.</p>
+                    <Link to='/contact' className='getInTouch'>Get In Touch!</Link>
                 </div>
                 <div class='aboutMeHeadshot'>
                     <img id='headshot' src={Headshot} alt='JM Headshot' />
@@ -20,7 +20,7 @@ const About = () => {
             <hr className='aboutMeDivider'></hr>
             <div>
                 <h3>Skills & Tools</h3>
-                <h1>My Toolbox & Things I Can Do</h1>
+                <h1 className='skillsTitle'>My Toolbox & Things I Can Do</h1>
                 <p>The skills, tools and technologies I use to bring your products to life:</p>
                 
                 <div className='skillsContainer'>
@@ -61,7 +61,7 @@ const About = () => {
                         <p>VS Code</p>
                     </div>
                     <div className='singleSkill'>
-                        <i class="fad fa-mobile"></i>
+                        <i class="fas fa-mobile"></i>
                         <p>Responsive Websites</p>
                     </div>
                     <div className='singleSkill'>
@@ -81,7 +81,7 @@ const About = () => {
                         <p>PostgreSQL</p>
                     </div>
                 </div>
-                <h2>Currently Working On:</h2>
+                <h2 className='skillsTitle'>Currently Working On:</h2>
                 <p>Improving my skills and understanding of vanilla JavaScript and React.  Also, having fun with the #100DaysOfCode building and animating things via CSS.</p>
             </div>
         </main>
