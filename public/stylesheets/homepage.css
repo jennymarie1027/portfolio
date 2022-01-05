@@ -22,31 +22,21 @@
 .subtitle {
     opacity: 0.5;
 }
-
-
-
 .portfoliobutton {
-    color: white;
     text-decoration: none;
-    padding: 25px 0px;
-    display: block;
-    text-align: center;
-    width: 20%;
-    background: rgba(3, 4, 94, 0.5);
-    border: 1px solid white;
-    border-radius: 0.4em;
+    color: white;
+    border: 5px solid rgba(36, 135, 170, 0.5);
+    padding: 0.3em;
     font-size: 1.4em;
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 150px;
+    padding: 0.5em;
 }
 
 .portfoliobutton:hover {
-    background: rgba(0, 150, 199, 0.5);
     color: white;
-    box-shadow: 0 0.5em 0.8em 0.05em rgba(255, 255, 255, 0.3); /*rgba(3, 4, 94, 0.5); */
-    transform: translateY(-0.25em);
-    cursor: pointer;
+    box-shadow: 10px 5px 12px rgba(255, 255, 255, 0.2);
 }
 
 @media (max-width: 768px) {
