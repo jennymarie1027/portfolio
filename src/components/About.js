@@ -20,7 +20,7 @@ const About = () => {
             <hr className='aboutMeDivider'></hr>
             <div>
                 <h3>Skills & Tools</h3>
-                <h1 className='skillsTitle'>My Toolbox & Things I Can Do</h1>
+                <h2 className='skillsTitle'>My Toolbox & Things I Can Do</h2>
                 <p>The skills, tools and technologies I use to bring your products to life:</p>
                 
                 <div className='skillsContainer'>

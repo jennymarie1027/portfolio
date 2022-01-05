@@ -1,20 +1,6 @@
-#projectHeader {
-    background: rgba(224, 230, 236, 0.85);
-    padding-top: 45px;
-    padding-bottom: 45px;
+.projectHeader {
     text-align: center;
-    font-size: 2em;
-    max-width: 75%;
-    margin: 25px auto;
-
-}
-
-#projectHeader > h1 {
-    letter-spacing: 0.6em;
-    text-decoration: underline;
-    text-underline-offset: 40%;
-    margin-bottom: 0.5em;
-    margin-top: 1.5em;
+    color: rgb(183, 156, 167)
 }
 
 .project {

@@ -3,10 +3,8 @@ import React from 'react'
 const Projects = () => {
     return (
         <main className='marginTop'>
-            <section id="projectHeader">
-                <h1>PORTFOLIO</h1>
-                <p>Below you can see some projects I've been working on lately.</p>
-            </section>
+            <h1 className='projectHeader'>A selection of stuff I've built</h1>
+                
             <section className="project">
                 <h2>E-Commerce Website</h2>
                 <p>Built an e-commerce website where a user can browse and purchase items with or without an account.  The online store has a complete checkout experience, and user based priviledges so only admin level users are able to manage products.</p>

@@ -1,16 +1,15 @@
 .grandpa {
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+    max-width: 95vw;
 }
 .aboutMeContainer{
     color: white;
     display: flex;
-    
-    max-width: 80vw;
 }
 
 .aboutMeDetails {
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,7 +44,6 @@
 }
 
 #headshot {
-    /* max-height: 20em; */
     border-radius: 50%;
 }
 
@@ -75,16 +73,27 @@
     margin-bottom: 0.3em;
 }
 
-
-
-
-@media screen and (max-width: 768px) {
-    main {
+@media screen and (max-width: 1096px){
+    .grandpa {
+        max-width: 75vw;
+        margin: auto;
+        margin-top: 8em;
+    }
+    .aboutMeContainer {
         flex-direction: column;
         max-width: 90%;
         justify-content: center;
         align-items: center;
     }
+    #headshot {
+        max-width: 70%;
+        margin-top: 1em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
 
     .aboutMeContainer {
         font-size: 1em;

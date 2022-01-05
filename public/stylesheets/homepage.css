@@ -10,7 +10,6 @@
     
 }
 #hello {
-    /* font-family: 'Otomanopee One', sans-serif; */
     margin: 0px;
 }
 
@@ -21,6 +20,7 @@
 
 .subtitle {
     opacity: 0.5;
+    margin-top: 1em;
 }
 .portfoliobutton {
     text-decoration: none;
@@ -28,10 +28,9 @@
     border: 5px solid rgba(36, 135, 170, 0.5);
     padding: 0.3em;
     font-size: 1.4em;
-    font-weight: 200;
     text-transform: uppercase;
-    margin-bottom: 150px;
     padding: 0.5em;
+    margin-top: 1.5em;
 }
 
 .portfoliobutton:hover {
