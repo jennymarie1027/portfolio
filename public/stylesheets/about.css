@@ -2,7 +2,7 @@
     color: white;
     display: flex;
     margin-left: 3em;
-    max-width: 90vw;
+    max-width: 80vw;
 }
 
 .aboutMeDetails {
@@ -24,7 +24,6 @@
 .aboutMeHeadshot {
     margin-left:2em;
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: flex-start;
 }
