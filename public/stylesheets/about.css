@@ -1,7 +1,11 @@
+.grandpa {
+    margin-left: 15em;
+    margin-right: 15em;
+}
 .aboutMeContainer{
     color: white;
     display: flex;
-    margin-left: 3em;
+    
     max-width: 80vw;
 }
 
@@ -12,7 +16,7 @@
     justify-content: center;
     align-items: flex-start;
     min-width: 50%;
-    margin-left: 8em;
+    
 }
 
 #about {
@@ -30,8 +34,31 @@
 
 #headshot {
     max-height: 20em;
-
 }
+
+.aboutMeDivider {
+    margin-top: 2em;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.singleSkill {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 10%;
+}
+
+.singleSkill > i {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
 
 @media screen and (max-width: 768px) {
     main {
