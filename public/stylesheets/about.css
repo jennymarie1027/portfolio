@@ -19,10 +19,10 @@
 }
 
 #about {
-    display: inline-block;
-    font-size: 1.5em;
+    /* display: inline-block; */
+    font-size: 1.7em;
     letter-spacing: 0.2em;
-    color: rgb(183, 156, 167)
+    color: rgb(183, 156, 167);
 }
 
 .getInTouch {
