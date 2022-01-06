@@ -54,7 +54,8 @@ const About = () => {
                     </div>
                     <div className='singleSkill'>
                         <i class="fas fa-terminal"></i>
-                        <p>Command Line</p>
+                        <p className='twoWorkSkill'>Command</p>
+                        <p className='twoWorkSkill'>Line</p>
                     </div>
                     <div className='singleSkill'>
                         <i class="fas fa-laptop-code"></i>
@@ -62,11 +63,13 @@ const About = () => {
                     </div>
                     <div className='singleSkill'>
                         <i class="fas fa-mobile"></i>
-                        <p>Responsive Websites</p>
+                        <p className='twoWorkSkill'>Responsive</p>
+                        <p className='twoWorkSkill'>Websites</p>
                     </div>
                     <div className='singleSkill'>
                         <i class="fas fa-universal-access"></i>
-                        <p>Web Accessibility</p>
+                        <p className='twoWorkSkill'>Web</p>
+                        <p className='twoWorkSkill'>Accessibility</p>
                     </div>
                     <div className='singleSkill'>
                         <i class="fab fa-node-js"></i>

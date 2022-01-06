@@ -7,7 +7,7 @@ const Homepage = () => {
             <h5 id="hello">Hi, my name is</h5>
             <h1 id="name">JENNY MCGRATH</h1>
             <h2 className='subtitle'>I build things for the web.</h2>
-            <h4 className="subtitle">I'm a Colorado based programmer with a passion for crafting solid and scalable frontend products with great user experiences.  </h4>
+            <h4 className="subtitle">I'm a Colorado based developer with a passion for crafting solid and scalable frontend products with great user experiences.  </h4>
 
 
             <Link className="portfoliobutton" to="/projects">See My Work</Link>

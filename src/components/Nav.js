@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../imgs/jm_logo.jpg'
 
+// https://anniebombanie.com/#work
+
 const Nav = () => {
     return (
         <header className='navbar fixed-top navbar-expand-sm navbar-light'>

@@ -68,6 +68,11 @@
     min-width: 10%;
 }
 
+.twoWorkSkill {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 .singleSkill > i {
     font-size: 3em;
     margin-bottom: 0.3em;
