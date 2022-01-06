@@ -1,51 +1,144 @@
 .projectHeader {
     text-align: center;
-    color: rgb(183, 156, 167)
+    margin-bottom: 1.5em;
+    text-decoration: underline;
 }
 
 .project {
-    text-align: center;
-    background: rgba(224, 230, 236, 0.8);
-    max-width: 75%;
-    margin: 15px auto;
-    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
 }
 
-.project h2 {
-    padding: 1.5em;
-    padding-bottom: 0px;
-    font-size: 2em;
+.projectImgR {
+    max-width: 30%;
+    border-radius: 0.3em;
 }
 
+.projectDetailsContainerR {
+    max-width: 40%;
+    border-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
+}
 
-.project p {
-    max-width: 60%;
-    text-align: center;
-    margin: 25px auto;
-    padding: 8px 0px;
+.featuredProjectR {
+    font-size: 1em;
+    margin-top: none;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    align-self: flex-end;
+}
+
+.projectTitleR {
+    align-self: flex-end;
+}
+.projectDetailsR {
+    background-color: rgba(36, 135, 170);
+    padding: 2em;
+    padding-left: 4em;
+    border-radius: 0.3em;
+    margin-left: -3em;
+}
+
+.projectTechnologiesR {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectTechnologiesR > p {
+    margin-left: 1em;
+}
+
+.projectLinkContainerR {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectLinkR {
+    color: white;
     font-size: 1.5em;
+    margin: 0.3em;
+    padding: 0.3em 0.5em;
+    border-radius: 50% 50%;
 }
 
-.project a {
-    border: 1px solid black;
-    margin: 35px;
-    padding: 15px;
-    color: black;
+.projectLinkR:hover {
+    background-color: rgba(36, 135, 170);
+    color: white;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+.projectHeaderL {
+    color: rgb(183, 156, 167)
 }
 
-.project a:hover {
-    cursor: pointer;
-    background: white;
-    font-weight: 400;
+.projectL {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.project img {
-    max-width: 75%;
-    max-height: 55%;
-    object-fit: cover;
-    padding: 5% 0% 2% 0%;
-   margin: 5px 0px;
+.projectImgL {
+    max-width: 30%;
+    border-radius: 0.3em;
 }
 
+.projectDetailsContainerL {
+    max-width: 40%;
+    border-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
+}
 
+.featuredProjectL {
+    font-size: 1em;
+    margin-top: none;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+.projectTitleL {
+    align-self: flex-start;
+}
+.projectDetailsL {
+    background-color: rgba(36, 135, 170);
+    padding: 2em;
+    padding-left: 4em;
+    border-radius: 0.3em;
+    margin-right: -3em;
+    z-index: 1;
+}
+
+.projectTechnologiesL {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.projectTechnologiesL > p {
+    margin-left: 1em;
+}
+
+.projectLinkContainerL {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.projectLinkL {
+    color: white;
+    font-size: 1.5em;
+    margin: 0.3em;
+    padding: 0.3em 0.5em;
+    border-radius: 50% 50%;
+}
+
+.projectLinkL:hover {
+    background-color: rgba(36, 135, 170);
+    color: white;
+}

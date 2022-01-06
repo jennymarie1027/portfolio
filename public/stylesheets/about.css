@@ -29,12 +29,15 @@
     text-decoration: none;
     color: white;
     border: 5px solid rgba(36, 135, 170, 0.5);
+    background-color: rgba(36, 135, 170);
+    border-radius: 0.2em;
     padding: 0.3em;
 }
 
 .getInTouch:hover {
     color: white;
-    box-shadow: 10px 5px 12px rgba(255, 255, 255, 0.2);
+    /* box-shadow: 10px 5px 12px rgba(255, 255, 255, 0.2); */
+    box-shadow: 10px 5px 12px rgba(36, 135, 170, 0.5);
 }
 
 .aboutMeHeadshot {

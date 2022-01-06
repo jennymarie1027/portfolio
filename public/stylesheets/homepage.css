@@ -24,8 +24,10 @@
 }
 .portfoliobutton {
     text-decoration: none;
+    border-radius: 0.2em;
     color: white;
     border: 5px solid rgba(36, 135, 170, 0.5);
+    background-color: rgba(36, 135, 170);
     padding: 0.3em;
     font-size: 1.4em;
     text-transform: uppercase;
@@ -35,7 +37,7 @@
 
 .portfoliobutton:hover {
     color: white;
-    box-shadow: 10px 5px 12px rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 5px 12px rgba(36, 135, 170, 0.5);
 }
 
 @media (max-width: 768px) {

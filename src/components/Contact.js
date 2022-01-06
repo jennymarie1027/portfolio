@@ -3,9 +3,10 @@ import React from 'react'
 const Contact = () => {
     return (
         <div className='marginTop'>
-            <h3>Get In Contact</h3>
+            <h1>Lets Talk</h1>
+            <p>jennymarie1027@gmail</p>
             <ul>
-                <li>jennymarie1027@gmail</li>
+                <li></li>
                 <li>linkedin.com/in/jennymarie1027</li>
                 <li>github.com/jennymarie1027</li>
             </ul>
