@@ -2,14 +2,48 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='marginTop'>
-            <h1>Lets Talk</h1>
-            <p>jennymarie1027@gmail</p>
-            <ul>
-                <li></li>
-                <li>linkedin.com/in/jennymarie1027</li>
-                <li>github.com/jennymarie1027</li>
-            </ul>
+        <div className='contactContainer marginTop'>
+            <div className='scrollContainer'>
+            <hr className='contactDivider '/>
+            <div className='slider '>
+                <div className='slide-track '>
+                    <div className='slide'>
+                        <h1>Say Hello - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Let's Collaborate - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Hire Me - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Drop a Line - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Say Hello - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Let's Collaborate - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Hire Me - </h1>
+                    </div>
+                    <div className='slide'>
+                        <h1>Drop a Line - </h1>
+                    </div>
+                </div>
+            </div>
+            <hr className='contactDivider'/>
+            </div>
+           <h2 className='contactEmail'>jennymarie1027@gmail</h2>
+            <div className='contactDetails'>
+                 <a className='contactLink' target='_blank' rel="noreferrer noopener" href='https://github.com/jennymarie1027/'>
+                    Github</a>
+                <a className='contactLink' target='_blank' rel="noreferrer noopener" href='https://linkedin.com/in/jennymarie1027'>
+                 LinkedIn</a>
+            </div>
+            <div>
+            </div>
         </div>
     )
 }

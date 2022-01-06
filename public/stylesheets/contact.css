@@ -1,0 +1,103 @@
+.contactContainer {
+    min-height: 100vh;
+    max-width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.scrollContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 90vw;
+    overflow: hidden;
+    position: relative;
+    place-items: center;
+}
+.slide-track {
+    display: flex;
+    width: calc(500px * 8);
+    animation: scroll 10s linear infinite;
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+    color: rgb(183, 156, 167);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 4))
+    }
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+}
+
+.slide > h1 {
+    font-size: 5em;
+    margin: 0em;
+    padding: 0em;
+}
+
+.contactDivider {
+    width: 90%;
+    place-items: center;
+}
+
+.contactDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactEmail {
+    letter-spacing: 0.1em;
+    font-size: 4em;
+}
+
+.contactLink {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.7em;
+    background-color: rgb(36, 135, 170);
+    border-radius: 0.5em;
+}
+
+.contactLink:hover {
+    color: white;
+    box-shadow: -10px -10px 12px rgba(36, 135, 170, 0.5);
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: 100vw;
+    }
+    .slide > h1 {
+        font-size: 2em;
+    }
+    .contactEmail {
+        letter-spacing: 0.0em;
+        font-size: 1.7em;
+        margin-top: 0em;
+    }
+    .contactDetails {
+        flex-direction: column;
+        margin-bottom: 6em;
+    }
+    .contactContainer {
+        max-width: 90vw;
+    }
+}
