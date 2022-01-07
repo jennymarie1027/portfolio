@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../imgs/jm_logo.jpg'
-
-// https://anniebombanie.com/#work
+import resume from '../imgs/resume3.PNG'
 
 const Nav = () => {
     return (
@@ -27,7 +26,7 @@ const Nav = () => {
                     <li className='nav-item'><Link to='/About' className='nav-link' >About</Link></li>
                     <li className='nav-item'><Link to='/Projects' className='nav-link'>Projects</Link></li>
                     <li className='nav-item'><Link to='/Contact' className='nav-link'>Contact</Link></li>
-                    {/* <li className='nav-item'><Link to='/Resume' className='nav-link'>Resume</Link></li> */}
+                    <li className='nav-item'><a href={resume} target='_blank' rel='noreferrer' className='nav-link'>Resume</a></li>
                 </ul>
             </div>
 
