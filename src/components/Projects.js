@@ -8,7 +8,8 @@ import tictactoe from '../imgs/tictactoe.PNG'
 const Projects = () => {
     return (
         <main className='marginTop'>
-            <h1 className='projectHeader'>A selection of projects I've built</h1>  
+            <h1 className='projectHeader'>A selection of projects I've built</h1>
+
             <section className="project">
                 <img className='projectImgR' src={rethrift} alt="rethrift homepage" />
                 <div className='projectDetailsContainerR'>
@@ -29,6 +30,14 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
+
+
+
+
+
+
+
+            
             <section className="project">
                 <div className='projectDetailsContainerL'>
                     <h1 className='featuredProjectL'>Featured Project</h1>

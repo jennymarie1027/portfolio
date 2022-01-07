@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5em;
+    max-width: 95%;
 }
 
 .projectImgR {
@@ -46,6 +47,8 @@
 .projectTechnologiesR {
     display: flex;
     justify-content: flex-end;
+    margin-top: 3.5em;
+    margin-left: 1em;
 }
 
 .projectTechnologiesR > p {
@@ -141,4 +144,70 @@
 .projectLinkL:hover {
     background-color: rgba(36, 135, 170);
     color: white;
+}
+
+@media  (max-width: 1000px) {
+    .project {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .projectImgR, .projectImgL {
+        max-width: 50%;
+    }
+    .projectDetailsR, .projectDetailsL {
+        font-size: 0.9em;
+        
+    }
+    .projectTechnologiesR {
+        margin-top: 4.5em;
+    }
+}
+
+@media  (max-width: 829px) {
+    .project {
+       flex-direction: column;
+       align-items: flex-start;
+       margin-bottom: 3em;
+       background-color: rgba(36, 135, 170);
+       padding: 1em;
+    }
+    .featuredProjectR, .featuredProjectL {
+        align-self: flex-start;
+    }
+    .projectTitleR, .projectTitleL {
+        align-self: flex-start;
+    }
+    .projectImgR, .projectImgL {
+        max-width: 100%;
+        border-radius: 0.3em;
+        order: 3;
+    }
+    .projectDetailsContainerR, .projectDetailsContainerL {
+        max-width: 100%;
+        border-radius: 0.3em;
+        display: flex;
+        flex-direction: column;
+    }
+    .projectDetailsR, .projectDetailsL {
+        margin: 1em;
+        padding: 1em;
+        width: 100%;
+        border: 3px solid rgb(94, 138, 166);
+        margin-left: 0em;
+    }
+
+    .projectTechnologiesR, .projectTechnologiesL {
+        display: flex;
+        justify-content: center;
+        margin: 0em 1em 0em 0em;
+        flex-wrap: wrap;
+    }
+    .projectLinkContainerR, .projectLinkContainerL {
+        display: flex;
+        justify-content: center;
+    }
+    .projectLinkR, .projectLinkL{
+        margin: 0em 1em 0em 0em;
+    }
 }
