@@ -11,10 +11,10 @@ const Contact = () => {
                         <h1>Say Hello - </h1>
                     </div>
                     <div className='slide'>
-                        <h1>Let's Collaborate - </h1>
+                        <h1>Let's Connect - </h1>
                     </div>
                     <div className='slide'>
-                        <h1>Hire Me - </h1>
+                        <h1>Get in Touch - </h1>
                     </div>
                     <div className='slide'>
                         <h1>Drop a Line - </h1>
@@ -23,10 +23,10 @@ const Contact = () => {
                         <h1>Say Hello - </h1>
                     </div>
                     <div className='slide'>
-                        <h1>Let's Collaborate - </h1>
+                        <h1>Let's Connect - </h1>
                     </div>
                     <div className='slide'>
-                        <h1>Hire Me - </h1>
+                        <h1>Get in Touch - </h1>
                     </div>
                     <div className='slide'>
                         <h1>Drop a Line - </h1>
