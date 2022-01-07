@@ -6,30 +6,33 @@ import Logo from '../imgs/jm_logo.jpg'
 
 const Nav = () => {
     return (
-        <header className='navbar fixed-top navbar-expand-sm navbar-light'>
+        // <nav className='navbar fixed-top navbar-expand-sm navbar-light'>
+        <nav className='navbar navbar-expand-md fixed-top'>
             <Link to='/' className='navbar-brand mb-0 h1'>
-                <img id='logo' src={Logo} alt='JM LOGO' />
+                <img className='d-inline-block align-top' id='logo' src={Logo} alt='JM LOGO' />
             </Link>
             <button 
+                className='navbar-toggler'
                 type='button'
                 data-bs-toggle='collapse'
                 data-bs-target='#navbarNav'
-                className='navbar-toggler'
                 aria-controls='navbarNav'
                 aria-expanded='false'
                 aria-label='toggle navigation'>
-                <span className='navbar-inverse navbar-toggler-icon'></span>
+                <i class="fas fa-bars"></i>
             </button>
-            <div className=' navbar-collapse' id='navbarNav'>
-                <Link to='/' className='nav-link'>Home</Link>
-                <Link to='/About' className='nav-link' >About</Link>
-                <Link to='/Projects' className='nav-link'>Projects</Link>
-                <Link to='/Contact' className='nav-link'>Contact</Link>
-                {/* <Link to='/Resume' className='nav-link'>Resume</Link> */}
-                
-
+            <div className='collapse navbar-collapse' id='navbarNav'>
+                <ul className='navbar-nav'>
+                    <li className='nav-item '><Link to='/' className='nav-link'>Home</Link></li>
+                    <li className='nav-item'><Link to='/About' className='nav-link' >About</Link></li>
+                    <li className='nav-item'><Link to='/Projects' className='nav-link'>Projects</Link></li>
+                    <li className='nav-item'><Link to='/Contact' className='nav-link'>Contact</Link></li>
+                    {/* <li className='nav-item'><Link to='/Resume' className='nav-link'>Resume</Link></li> */}
+                </ul>
             </div>
-        </header>
+
+
+        </nav>
     )
 }
 
