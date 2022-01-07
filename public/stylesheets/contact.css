@@ -1,6 +1,6 @@
 .contactContainer {
     min-height: 100vh;
-    max-width: 80%;
+    width: 80%;
     display: grid;
     place-items: center;
 }
@@ -13,7 +13,7 @@
 }
 
 .slider {
-    width: 90vw;
+    width: 98vw;
     overflow: hidden;
     position: relative;
     place-items: center;
@@ -63,8 +63,9 @@
 }
 
 .contactEmail {
-    letter-spacing: 0.1em;
-    font-size: 4em;
+    letter-spacing: 0.15em;
+    font-size: 3em;
+    
 }
 
 .contactLink {
