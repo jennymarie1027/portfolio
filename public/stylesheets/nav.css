@@ -26,5 +26,6 @@
     color: darkgray;
     text-decoration: underline;
     text-underline-offset: 0.5em;
+    transform: translateY(0.1em);
 }
 
