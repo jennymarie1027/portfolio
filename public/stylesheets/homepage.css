@@ -36,6 +36,7 @@
 .portfoliobutton:hover {
     color: white;
     box-shadow: 10px 5px 12px rgba(36, 135, 170, 0.5);
+    transform: translateY(0.1em);
 }
 
 @media (max-width: 768px) {
