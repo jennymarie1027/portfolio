@@ -71,6 +71,7 @@
 .projectLinkR:hover {
     background-color: rgba(36, 135, 170);
     color: white;
+    transform: translateY(0.1em);
 }
 /* ---------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */
@@ -144,6 +145,7 @@
 .projectLinkL:hover {
     background-color: rgba(36, 135, 170);
     color: white;
+    transform: translateY(0.1em);
 }
 
 @media  (max-width: 1000px) {
