@@ -2,7 +2,7 @@ import React from 'react'
 import rethrift from '../imgs/rethrift.PNG'
 import strangerThings from '../imgs/strangerThings.PNG'
 import fitnessTracker from '../imgs/fitnessTracker.PNG'
-import tictactoe from '../imgs/tictactoe.PNG'
+
 
 
 const Projects = () => {
