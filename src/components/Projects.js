@@ -80,7 +80,7 @@ const Projects = () => {
 
 
 
-
+{/* 
             <section className="project">
                 <div className='projectDetailsContainerL'>
                     <h1 className='featuredProjectL'>Featured Project</h1>
@@ -97,7 +97,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <img className='projectImgL' src={tictactoe} alt="strangerThings homepage" />
-            </section>
+            </section> */}
         </main>
     )
 }
